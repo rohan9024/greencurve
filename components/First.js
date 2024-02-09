@@ -3,7 +3,7 @@ import { motion } from "framer-motion"
 import { Manrope, Raleway } from 'next/font/google';
 import Image from 'next/image';
 import Graph from './Graph';
-import Graph2 from './Graph2';
+// import Graph2 from './Graph2';
 
 
 const raleway = Raleway({
@@ -78,7 +78,7 @@ function First() {
 
                 <div className='my-10'>
                     {/* <Graph info={data} className="w-screen h-screen" /> */}
-                    <Graph2 className="w-screen h-screen" />
+                    {/* <Graph2 className="w-screen h-screen" /> */}
                 </div>
                 {/* <Graph info={data} className="w-screen h-screen" /> */}
                 <div className={`${manrope.className} my-10 space-y-10`}>
